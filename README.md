@@ -1,34 +1,28 @@
-Fullstack-Projekt
+# Fullstack Project
+Ein Fullstack-Projekt mit NestJS, React, TypeScript, MongoDB und Effector, erstellt für ein Vorstellungsgespräch bei Doctronic.
 
-Dies ist ein Fullstack-Projekt, bestehend aus Backend und Frontend.
+## Tech Stack
+- **Backend:** NestJS, Mongoose, JWT
+- **Frontend:** React, TypeScript, Effector, CSS
+- **Database:** MongoDB
 
-Backend
+## Installation & Run
+### Backend
+```bash
+cd backend
+npm install
+npm run start
 
-Geschrieben mit NestJS.
+### Frontend
+cd frontend
+npm install
+npm start
 
-Datenbank: MongoDB.
+## Features
+- Benutzerregistrierung und Login
+- Access & Refresh Tokens mit JWT
+- State Management mit Effector
+- Einfaches, sauberes Frontend
 
-Verbindung zur Datenbank über Mongoose.
-
-Authentifizierung mit JWT (Access- und Refresh-Token) implementiert.
-
-Frontend
-
-Geschrieben mit React und TypeScript.
-
-Navigation mit React Router DOM.
-
-State-Management mit Effector.
-
-Styling mit CSS.
-
-Besonderheiten
-
-Vollständige Registrierung und Login von Benutzern.
-
-Getrennte Access- und Refresh-Token für mehr Sicherheit.
-
-Einfache und übersichtliche Projektstruktur.
-
-
-Hinweis: Dieses Projekt wurde speziell als Präsentationsprojekt für ein Vorstellungsgespräch bei Doctronic erstellt, um Fullstack-Fähigkeiten in NestJS, React, TypeScript, MongoDB und Effector zu demonstrieren.
+## Projektziel
+Dieses Projekt wurde speziell für ein Vorstellungsgespräch bei Doctronic erstellt, um Fullstack-Fähigkeiten zu demonstrieren.
