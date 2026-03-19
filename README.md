@@ -11,12 +11,13 @@ Ein Fullstack-Projekt mit NestJS, React, TypeScript, MongoDB und Effector, erste
 ```bash
 cd backend
 npm install
-npm run start
+npm run start:dev
 
 Frontend
 cd frontend
 npm install
-npm start
+npm run dev
+```
 
 ## Features
 - Benutzerregistrierung und Login
@@ -24,5 +25,5 @@ npm start
 - State Management mit Effector
 - Einfaches, sauberes Frontend
 
-## Projektziel
+### Projektziel
 Dieses Projekt wurde speziell für ein Vorstellungsgespräch bei Doctronic erstellt, um Fullstack-Fähigkeiten zu demonstrieren.
