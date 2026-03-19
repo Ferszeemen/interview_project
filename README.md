@@ -12,8 +12,11 @@ Ein Fullstack-Projekt mit NestJS, React, TypeScript, MongoDB und Effector, erste
 cd backend
 npm install
 npm run start:dev
+```
 
-Frontend
+
+### Frontend
+```bash
 cd frontend
 npm install
 npm run dev
