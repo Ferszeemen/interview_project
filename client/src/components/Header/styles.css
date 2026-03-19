@@ -1,0 +1,78 @@
+
+.header {
+    width: 100%;
+    padding: 16px 0;
+    transition: background 0.3s ease;
+}
+
+/* Темы */
+.header.dark {
+    background: #1e1e1e;
+    color: #fff;
+}
+
+.header.light {
+    background: #3f51b5;
+    color: #fff;
+}
+
+/* Контейнер */
+.header__container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Заголовок */
+.header__title {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+/* Username */
+.header__user {
+    font-size: 24px;
+    opacity: 0.8;
+}
+
+/* Кнопки справа */
+.header__actions {
+    display: flex;
+    gap: 10px;
+}
+
+/* Общая кнопка */
+.btn {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.2s ease;
+}
+
+/* Кнопка темы */
+.btn-theme {
+    background: white;
+    color: black;
+}
+
+.header.dark .btn-theme {
+    background: #333;
+    color: #fff;
+}
+
+/* Logout */
+.btn-logout {
+    background: #ff4d4f;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}

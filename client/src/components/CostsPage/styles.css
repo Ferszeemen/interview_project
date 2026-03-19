@@ -1,0 +1,25 @@
+.page {
+    border-radius: 12px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 16px;
+}
+
+.page__title {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 26px;
+}
+
+/* контент */
+.page__content {
+    position: relative;
+    min-height: 100px;
+}
+
+/* пустой список */
+.empty {
+    text-align: center;
+    margin-top: 20px;
+    opacity: 0.7;
+}
